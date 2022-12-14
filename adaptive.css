@@ -1,0 +1,158 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    :root {
+        --main-width: 900px;
+      }
+
+    .main_photoproj img{
+        width: 400px;
+    }
+    .main__projcard{
+        position: relative;
+        top: -10px;
+        left: 0px;
+    }
+    .conteiner h1 {
+        font-size: 30px;
+    }
+    .conteiner p{
+        font-size: 13px;
+    }
+    .discription_text h1 {
+        font-size: 30px;
+    }
+    .discription_text p{
+        font-size: 13px;
+    }
+    .intrested__text h1{
+        font-size: 30px;
+    }
+    .intrested__text p{
+        font-size: 13px;
+    }
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    :root {
+        --main-width: 700px;
+      }
+
+    .main_photoproj img{
+        width: 250px;
+    
+    }
+    .main__logo img{
+        width: 50px;
+    }
+    .main__projcard{
+        position: relative;
+        top: -10px;
+
+    }
+    .main__projtext p{
+        font-size: 10px;
+    }
+    .conteiner h1 {
+        font-size: 20px;
+    }
+    .conteiner p{
+        font-size: 10px;
+    }
+    .discription_text h1 {
+        font-size: 20px;
+    }
+    .discription_text p{
+        font-size: 10px;
+    }
+    .intrested__text h1{
+        font-size: 20px;
+    }
+    .intrested__text p{
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .hamburger{
+        display: block;
+    }
+    .header_touch{
+        opacity: 0;
+    }
+    .header__menu{
+        background: rgba(0, 0, 0, 0.498);
+        text-align: center;
+        position: fixed;
+        left: -100%;    
+        flex-direction: column;
+        top: 55px;
+    }
+    .header__menu li {
+        display: block;
+    }
+    .header__menu.active{
+        left: 620px;
+    }
+
+}
+
+@media all and (max-width: 480px) { 
+    .hamburger{
+        display: block;
+    }
+    .header_touch{
+        opacity: 0;
+    }
+    .header__menu{
+        background: rgba(0, 0, 0, 0.498);
+        text-align: center;
+        position: fixed;
+        left: -100%;    
+        flex-direction: column;
+        top: 55px;
+    }
+    .header__menu li {
+        display: block;
+    }
+    .header__menu.active{
+        left: 620px;
+    }
+
+    :root {
+        --main-width: 95%;
+      }
+    
+    .main_photoproj img{
+        width: 150px;
+    
+    }
+    .main__logo img{
+        width: 90px;
+    }
+
+    .main__projcard{
+        position: relative;
+        top: -10px;
+
+    }
+    .main__projtext p{
+        font-size: 10px;
+    }
+    .conteiner h1 {
+        font-size: 38px;
+    }
+    .conteiner p{
+        font-size: 25px;
+    }
+    .discription_text h1 {
+        font-size: 20px;
+    }
+    .discription_text p{
+        font-size: 10px;
+    }
+    .intrested__text h1{
+        font-size: 20px;
+    }
+    .intrested__text p{
+        font-size: 10px;
+    }
+}

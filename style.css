@@ -1,0 +1,152 @@
+body {
+    background: rgb(9, 9, 9);
+    margin: 0px;
+}
+
+:root {
+    --main-width: 1200px;
+  }
+.header {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    color: rgb(93, 99, 99);
+    font-size: 20px;
+}
+
+.header__menu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header__logo {
+    display: inline-block;
+}
+
+.header__logo h1 {
+    display: inline-block;
+    color: azure;
+    font-size: 20px;
+}
+
+.header_touch {
+    font-size: 23px;
+    color: rgb(9, 9, 9);
+    background: rgb(239, 233, 62);
+    padding: 10px 20px;
+}
+
+.hamburger{
+ display: none;
+}
+
+.main_cont {
+    max-width: var(--main-width);
+    margin: 0 auto;
+}
+
+.main__text h1 {
+    color: azure;
+    font-size: 55px;
+}
+
+.main__text p {
+    color: rgb(93, 99, 99);
+    font-size: 20px;
+}
+
+.main__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px 60px 0px;
+}
+
+.main__projtext a {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+
+.main__projtext p {
+    color: rgb(93, 99, 99);
+    font-size: 20px;
+}
+
+.main__project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discription {
+    background: rgb(28, 35, 35);
+}
+
+.sicription__info {
+    padding: 50px 0px 50px 0px;
+}
+
+.discription_main {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discription_text h1 {
+    color: azure;
+    font-size: 40px;
+}
+
+.discription_text p {
+    color: rgb(93, 99, 99);
+    font-size: 20px;
+}
+
+.intrested__discription {
+    background: rgb(9, 9, 9);
+    max-width: var(--main-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+}
+
+.intrested__text h1 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: azure;
+}
+
+.intrested__text p {
+    color: rgb(93, 99, 99);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.conect__background {
+    background: rgb(28, 35, 35);
+}
+
+.conect {
+    max-width: var(--main-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conect__logo h1 {
+    font-size: 20px;
+    color: azure;
+}
+
+.conect__media img {
+    padding: 5px
+}
